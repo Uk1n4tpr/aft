@@ -443,3 +443,24 @@ footer {
     align-items: center;
 }
 
+@media screen and (min-width: 1024px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .hamburger_ul {
+        display: flex;
+        flex-direction: row;
+        background: none;
+        text-wrap: nowrap;
+    }
+
+    .hamburger_li {
+        padding-right: 50px;
+    }
+}
