@@ -20,10 +20,10 @@ app.use(express.json())
 
 app.use("/", require("./routes"));
 
-app.listen(process.env.BASE_URL, (error) => {
+app.listen(process.env.PORT, (error) => {
     if(error){
         console.log(error.message);
     }else{
-        console.log(`Server running on ${process.env.BASE_URL}`);
+        console.log(`Server running on ${process.env.PORT}`);
     }
 })
